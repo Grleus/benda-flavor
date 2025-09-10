@@ -33,7 +33,7 @@ body {
     font-weight: normal;
     overflow-x: hidden;
     background-color: #ffbb00; /* main yellow */
-    border: 15px solid #ffffff; /* keep white */
+    border: 15px solid #ffffff; /* white border */
     display: flow-root;
     height: 100%;
 }
@@ -202,7 +202,17 @@ button { border: 0; margin: 0; padding: 0; cursor: pointer; }
 #main_slider .carousel-control-prev:focus,
 #main_slider .carousel-control-prev:hover { color: #252525; background-color: #ffffff; }
 
-/* overlay change */
+/* about section start */
+.about_section { width: 100%; float: left; }
+.about_taital { width: 100%; float: left; font-size: 40px; color: #252525; font-weight: bold; }
+.about_text { width: 100%; float: left; font-size: 16px; color: #f3f3f3; margin: 0px; padding-top: 40px; }
+
+/* design section start */
+.design_section { width: 100%; float: left; }
+.design_taital { width: 100%; float: left; font-size: 40px; color: #363636; font-weight: bold; text-align: center; }
+.design_text { width: 100%; float: left; font-size: 16px; color: #f3f3f3; text-align: center; margin: 0px; }
+
+/* overlay hover */
 .overlay {
     position: absolute;
     top: 0;
@@ -213,24 +223,36 @@ button { border: 0; margin: 0; padding: 0; cursor: pointer; }
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: rgba(255, 187, 0, 0.8) !important; /* yellow overlay */
+    background-color: rgba(255, 187, 0, 0.8); /* yellow overlay */
     margin: 0 auto;
 }
 
-/* footer social icons */
-.footer_social_icon li a {
-    float: left;
-    padding: 5px 10px;
-    background-color: #fff; /* keep white */
-    color: #ffbb00; /* yellow */
-    border-radius: 100%;
-    font-size: 19px;
-    margin-right: 5px;
-    width: 44px;
-    text-align: center;
-    margin-top: 10px;
-}
+/* company section start */
+.company_section { width: 100%; float: left; padding-bottom: 90px; background-color: #ffffff; } /* white kept */
+.company_taital { width: 100%; float: left; font-size: 40px; color: #424242; font-weight: bold; }
+.company_text { width: 100%; float: left; font-size: 16px; color: #e2e3e5; margin: 0px; padding-bottom: 50px; }
 
-/* all other whites in the CSS remain untouched */
+/* client section start */
+.client_section { width: 100%; float: left; background-color: #ffffff; height: auto; padding: 70px 0px; } /* white kept */
+.client_taital { width: 100%; float: left; font-size: 40px; color: #494a4a; font-weight: 600; }
+
+/* news section start */
+.news_section { width: 100%; float: left; }
+.news_taital { width: 100%; float: left; font-size: 40px; color: #363636; font-weight: bold; text-align: center; }
+
+/* contact section start */
+.contact_section { width: 100%; float: left; padding-bottom: 90px; }
+.contact_taital { width: 100%; float: left; font-size: 40px; color: #1f1e1e; text-align: center; font-weight: bold; }
+
+/* footer section start */
+.footer_section { width: 100%; float: left; padding: 40px 0px; background-color: #ffffff; } /* white kept */
+.footer_logo, .footer_text, .footer_menu li a, .location_text li a { color: #fefefe; }
+.footer_social_icon li a { background-color: #fff; color: #ffbb00; }
+
+/* copyright section start */
+.copyright_section { width: 100%; float: left; background-color: #ffffff; } /* white kept */
+.copyright_text { width: 100%; float: left; font-size: 16px; color: #333333; text-align: center; font-family: 'Poppins', sans-serif; }
+
+
 
 
