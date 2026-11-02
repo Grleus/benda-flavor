@@ -1291,3 +1291,10 @@ input[type="text"] {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+/* Soft shadow so white text reads well on the yellow */
+.fh5co-cover h1, .fh5co-cover h2, .fh5co-cover h3, .fh5co-cover p,
+.fh5co-bg-dark h2, .fh5co-bg-dark h3, .fh5co-bg-dark p {
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.35);
+}
+.fh5co-bg-dark .btn { text-shadow: none; }
